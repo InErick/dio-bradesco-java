@@ -1,4 +1,4 @@
-package Exericios.Ex03;
+package Classes.Exericios.Ex03;
 
 public class Pet {
     private final String name;

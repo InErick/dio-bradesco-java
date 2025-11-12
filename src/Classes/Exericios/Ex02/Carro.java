@@ -1,4 +1,4 @@
-package Exericios.Ex02;
+package Classes.Exericios.Ex02;
 
 /*
 Escreva um código onde controlamos as funções de um carro, ele deve ter as seguintes funções:

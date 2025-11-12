@@ -1,4 +1,4 @@
-package Exericios.Ex01;
+package Classes.Exericios.Ex01;
 //Escreva um código onde temos uma conta bancaria que possa realizar as seguintes operações:
 //Consultar saldo x
 //consultar cheque especial x
