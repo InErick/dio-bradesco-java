@@ -1,0 +1,17 @@
+package HerancaPolimorfismo.Exercicios.Ex03;
+
+public non-sealed class BRLClock extends Clock{
+
+    @Override
+    public Clock convert(Clock clock) {
+        this.second = clock.getSecond();
+        this.minute = clock.getMinute();
+        switch(clock){
+            case USClock usClock -> this.hour = (usClock.getPeriodeIndicator().equals("PM")) ?
+                        usClock.getHour() + 12 :
+                        usClock.getHour();
+            case BRLClock brlClock -> this.hour = brlClock.getHour();
+    }
+        return this;
+    }
+}
